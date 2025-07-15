@@ -1,7 +1,7 @@
 import React from 'react';
 import type { IconProps } from '../../types/ui';
 
-const Logos: React.FC<IconProps> = ({ width = 1.5, className, alt }) => {
+const Logos: React.FC<IconProps> = ({ width = 1.5, className }) => {
 
   return (
     <svg

@@ -12,7 +12,7 @@ const Navbar = () => {
 
             <a href='#' className=' flex items-center gap-x-3 max-md:gap-x-2 ' >
 
-                <Logo width={4.5} className="h-6 text-primary-500 max-md:h-5 " alt="QuickNote Logo" />
+                <Logo width={4.5} className="h-6 text-primary-500 max-md:h-5 " />
 
                 <p className=' text-xl font-bold tracking-tight max-md:text-lg/8 '
                 >

@@ -47,7 +47,6 @@ const FAQ: React.FC<FAQProps> = ({ question, activeQuestion, handleQuestionClick
                     <question.Icon
                         width={2}
                         className='stroke-primary-50'
-                        alt={question.alt}
                     />
                 </div>
 
