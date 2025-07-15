@@ -5,9 +5,6 @@ A modern, responsive **AI-powered note-taking interface** built with **React**, 
 ## 🌐 Live Demo  
 👉 [QuickNote Live Link](https://quick-note-m7v4.vercel.app/)
 
-## 📸 Screenshots  
-> *(Add screenshots here if you want for better showcase)*
-
 ---
 
 ## ✨ Features
