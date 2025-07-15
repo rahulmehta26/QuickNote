@@ -8,5 +8,4 @@ export interface WithChildren  {
 export interface IconProps {
   width?: number;
   className?: string;
-  alt?: string;
 }

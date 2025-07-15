@@ -1,7 +1,7 @@
 import React from 'react'
 import type { IconProps } from '../../types/ui'
 
-const Microphone: React.FC<IconProps> = ({ alt, className, width = 1.5 }) => {
+const Microphone: React.FC<IconProps> = ({ className, width = 1.5 }) => {
     return (
         <svg
             width="24"
@@ -10,7 +10,7 @@ const Microphone: React.FC<IconProps> = ({ alt, className, width = 1.5 }) => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
-        // alt={alt}
+        //  
         >
             <path
                 d="M12 19C15.31 19 18 16.31 18 13V8C18 4.69 15.31 2 12 2C8.69 2 6 4.69 6 8V13C6 16.31 8.69 19 12 19Z"

@@ -11,7 +11,7 @@ const Logos: React.FC<IconProps> = ({ width = 1.5, className, alt }) => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       className={className}
-    // alt={alt}
+    //  
     >
       <path
         d="M19.9938 3.5H30.0063"

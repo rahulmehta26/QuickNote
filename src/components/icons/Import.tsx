@@ -1,7 +1,7 @@
 import React from 'react'
 import type { IconProps } from '../../types/ui'
 
-const Import: React.FC<IconProps> = ({ alt, className, width = 1.5 }) => {
+const Import: React.FC<IconProps> = ({ className, width = 1.5 }) => {
     return (
         <svg
             width="24"
@@ -10,7 +10,7 @@ const Import: React.FC<IconProps> = ({ alt, className, width = 1.5 }) => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
-        // alt={alt}
+        //  
         >
             <path
                 d="M9.31995 11.6802L11.8799 14.2402L14.4399 11.6802"

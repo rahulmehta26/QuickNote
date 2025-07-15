@@ -8,7 +8,7 @@ interface CaretUpProps {
     activeQuestion: boolean | null
 }
 
-const CaretUp: React.FC<CaretUpProps> = ({ alt, className, width = 1.5, activeQuestion }) => {
+const CaretUp: React.FC<CaretUpProps> = ({ className, width = 1.5, activeQuestion }) => {
     return (
         <motion.svg
             width="24"
@@ -17,8 +17,8 @@ const CaretUp: React.FC<CaretUpProps> = ({ alt, className, width = 1.5, activeQu
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
-            // alt={alt}
-            animate={{ rotate: activeQuestion ? -180 : 0 }} // Animate rotation based on the state
+            //  
+            animate={{ rotate: activeQuestion ? -180 : 0 }}
             transition={{ duration: 0.3, ease: "easeIn" }}
         >
             <path

@@ -1,14 +1,14 @@
 import React from 'react'
 import type { IconProps } from '../../types/ui'
 
-const Menu: React.FC<IconProps> = ({ alt, className, width = 1.5 }) => {
+const Menu: React.FC<IconProps> = ({ className, width = 1.5 }) => {
     return (
         <svg
             viewBox="0 0 24 24"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
-        // alt={alt}
+        //  
         >
             <path
                 d="M4.99988 10.0001H6.99988C8.99988 10.0001 9.99988 9.00006 9.99988 7.00006V5.00006C9.99988 3.00006 8.99988 2.00006 6.99988 2.00006H4.99988C2.99988 2.00006 1.99988 3.00006 1.99988 5.00006V7.00006C1.99988 9.00006 2.99988 10.0001 4.99988 10.0001Z"

@@ -1,7 +1,7 @@
 import React from 'react'
 import type { IconProps } from '../../types/ui'
 
-const ArrowRightLine: React.FC<IconProps> = ({ alt, className, width }) => {
+const ArrowRightLine: React.FC<IconProps> = ({ className, width }) => {
     return (
         <svg
             width="19"
@@ -9,7 +9,7 @@ const ArrowRightLine: React.FC<IconProps> = ({ alt, className, width }) => {
             viewBox="0 0 19 2"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            // alt={alt}
+            //  
             className={className}
         >
             <path
